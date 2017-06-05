@@ -53,7 +53,7 @@ void loop()
   }
   if ((char_count = Serial.available()) > 0) {
     int i;
-    buffer[0] = 'W';
+    buffer[0] = 'L';
     for (i = 1; i < char_count + 1; ++i)
       buffer[i] = Serial.read();
     buffer[i] = '\0';
