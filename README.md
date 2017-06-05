@@ -1,37 +1,20 @@
 # Multi-WiFiS4A
 
 ### Install
-* visualstudio 伺服器編輯器
-https://www.visualstudio.com/zh-hant/downloads/?rr=https%3A%2F%2Fwww.google.com.tw%2F
-
-
-* Arduino編輯器
-https://www.arduino.cc/en/Main/Donate
-
-* 燒錄wifi模組D1 mini需要的lib:
-
-https://drive.google.com/file/d/0B3rnGrzvGiDkcUFLVFZub25rNVk/view?usp=sharing
+* [visualstudio 伺服器編輯器](https://www.visualstudio.com/zh-hant/downloads/?rr=https%3A%2F%2Fwww.google.com.tw%2F)
+* [Arduino編輯器](https://www.arduino.cc/en/Main/Donate)
+* [燒錄wifi模組D1 mini需要的lib](https://drive.google.com/file/d/0B3rnGrzvGiDkcUFLVFZub25rNVk/view?usp=sharing)
 (解壓縮後放進Arduino目錄下)
-
-
-* S4A軟體
-http://s4a.cat/
+* [S4A軟體](http://s4a.cat/)
 
 ---
 
-### Update code:'src': 
-
-* Server程式碼
-TCP_ECHO_SERVER.cpp
-
-* S4A韌體，用Arduino編輯器燒錄到板子
-Uno_firmware.ino
-
-* 小朋友的wifi程式碼
-wifi_button.ino
-
-* 連接Arduino板子的wifi程式碼
-wifi_on_UNO.ino
+### Update code:
+'src': 
+* Server程式碼---- `TCP_ECHO_SERVER.cpp`
+* S4A韌體，用Arduino編輯器燒錄到板子---- `Uno_firmware.ino`
+* 小朋友的wifi程式碼---- `wifi_button.ino`
+* 連接Arduino板子的wifi程式碼---- `wifi_on_UNO.ino`
 
 ---
 
