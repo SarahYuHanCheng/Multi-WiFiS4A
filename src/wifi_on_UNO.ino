@@ -58,7 +58,7 @@ void loop()
       buffer[i] = Serial.read();
     buffer[i] = '\0';
     for (int i = 1; i < sizeof(buffer); i++) {
-      buffer[i] = {0};  //sarah
+      buffer[i] = {0};  
     }
     if (strstr(buffer, "end")) {
       wifiClient.stop();
@@ -95,7 +95,7 @@ void checkconnect() {
         i++;
       }
     } else {
-      _buffer[0] = 'X';  // recognized by server. W means wifi_on_UNO client.
+      _buffer[0] = 'X';  // recognized by server. X means wifi_on_UNO client.
       String(deviceID, HEX).toCharArray((_buffer + 1), 2);
       wifiClient.write(_buffer, 2);
       for (int i = 1; i < sizeof(_buffer); i++) {
