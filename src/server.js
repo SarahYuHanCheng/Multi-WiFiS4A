@@ -2,7 +2,7 @@
 var HOST = '192.168.1.8';
 var PORT = 8888;
 //Loadd TCP library
- var net = require('net');//clients
+var net = require('net');//clients
 var client = {
 	'socket':0,
 	'id':0,
@@ -40,7 +40,7 @@ net.createServer(function (socket){
 
 		} else {
 			//action data
-			console.log('action: '+ WifiOnUno.remoteAddress + ":"+ WifiOnUno.remotePort);
+// 			console.log('action: '+ WifiOnUno.remoteAddress + ":"+ WifiOnUno.remotePort);
 			if(WifiOnUno){
 				console.log('send data to WifiOnUno: '+ data);
 				WifiOnUno.write(data);
